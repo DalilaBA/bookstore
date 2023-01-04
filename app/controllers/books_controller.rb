@@ -1,5 +1,9 @@
 class BooksController < ApplicationController
   def index
-    render jason: Book.all
+    render json: Book.all
+  end 
+
+  def create
+    # some logic
   end
 end
